@@ -3,3 +3,5 @@ Write a function that checks if a number is prime (limit to the first 10 prime n
 Write a script that reads from a file and prints each line with line numbers
 Write a script that asks the user for input and appends it to a file
 The class assignment was fun
+hello python
+Welcome to python class

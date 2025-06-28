@@ -28,10 +28,12 @@ def append_to_file(filename):
     Args:
         filename (str): The name of the file to append to.
     """
-    user_input = input("Please enter some text: ")
-    with open(filename, 'a') as file:
-        file.write(user_input + "\n")
-    print(f"Text appended to '{filename}'")
-
+    try:
+        user_input = input("Please enter some text: ")
+        with open(filename, 'a') as file:
+            file.write(user_input + "\n")
+        print(f"Text appended to '{filename}'")
+    except FileNotFoundError:
+        return(f"File {filename} not found")
 
 append_to_file('data.txt')
