@@ -11,7 +11,7 @@ def read_files(filename):
     try:
         with open(filename, 'r') as file:
             for n, line in enumerate(file, start=1):
-                print(f"{n}: {line.strip()}")
+                print(f"{n}: {line}")
     except FileNotFoundError:
         print(f"File '{filename}' not found")
 

@@ -5,3 +5,4 @@ Write a script that asks the user for input and appends it to a file
 The class assignment was fun
 hello python
 Welcome to python class
+Hello World
