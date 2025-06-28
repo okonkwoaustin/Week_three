@@ -6,3 +6,5 @@ The class assignment was fun
 hello python
 Welcome to python class
 Hello World
+Hi Am Madu
+Hi python
