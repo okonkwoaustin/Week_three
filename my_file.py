@@ -38,5 +38,5 @@ def append_to_file(filename):
         print(f"File {filename} not found")
 
 
-filename = "dataas.txt"
+filename = "data.txt"
 append_to_file(filename)
